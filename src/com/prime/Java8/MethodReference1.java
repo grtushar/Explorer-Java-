@@ -23,7 +23,7 @@ class Numbers {
         return newList;
     }
 }
-public class MethodReferrence1 {
+public class MethodReference1 {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(12, 13, 14, 1, 34, 3, 7, 23);
 

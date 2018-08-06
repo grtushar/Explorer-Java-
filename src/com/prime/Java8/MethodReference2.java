@@ -8,7 +8,7 @@ interface Converter<F, T> {
     T convert(F from);
 }
 
-public class MethodReferrence2 {
+public class MethodReference2 {
     public static void main(String[] args) {
         Converter<String, Integer> converter = new Converter<String, Integer>() {
             @Override
